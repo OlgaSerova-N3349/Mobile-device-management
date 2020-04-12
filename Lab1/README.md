@@ -1,5 +1,4 @@
 # Mobile-device-management
-Лабораторный работы
 Для запуска программного модуля необходимо:
 
     1. Установить Python3, выбрав подходящую под вашу систему (Win/Mac Os) версию https://www.python.org/downloads/release/python-382/ 
