@@ -1,4 +1,5 @@
 # Mobile-device-management
+(Все файлы данной папки описаны в отчете по лабораторной 2)
 Для запуска программного модуля необходимо:
 
     1. Установить Python3, выбрав подходящую под вашу систему (Win/Mac Os) версию https://www.python.org/downloads/release/python-382/ 

@@ -1,6 +1,6 @@
 import pandas as pd
 
-data=pd.read_excel('/Users/macbook/Documents/DATA.xlsx')
+data=pd.read_excel('DATA.xlsx')
 
 print("Введите множитель тарифного плана k руб/Mb-",end='')
 k=int(input())

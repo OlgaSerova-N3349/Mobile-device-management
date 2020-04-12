@@ -1,6 +1,6 @@
 import pandas as pd
 
-data=pd.read_csv('/Users/macbook/Downloads/data.csv', index_col='msisdn_origin')
+data=pd.read_csv('data.csv', index_col='msisdn_origin')
 
 print("Введите номер абонента-",end='')
 number=int(input())

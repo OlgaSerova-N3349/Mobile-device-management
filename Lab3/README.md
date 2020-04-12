@@ -11,10 +11,17 @@
     2. После установки Python3 стоит также установить менеджер пакетов pip, который в дальнейшем поможет установить все необходимые модули, для этого следует воспользоваться командой:
        $ python get-pip.py // для Mac OS, Windows
        $ sudo apt install python3-pip //для Linux
-    3. Установка библиотеки Pandas
-       $    pip3 install Pandas
+    3. Установка библиотек openpyxl, xlsx2html и pdfkit
+       $    pip3 install openpyx
+       $    pip3 install xlsx2html
+       $    pip3 install pdfkit
+       на Debian/Ubuntu
+       $    apt-get install wkhtmltopdf 
+       на Mac OS 7
+       $    run brew install Caskroom/cask/wkhtmltopdf
+       или прсто выбрать нужную версию на сайте https://wkhtmltopdf.org/downloads.html
     4. Чтобы непосредственно запустить программный модуль можно воспользоваться терминалом и командой:
-       $ python3 mob1.py
+       $ python3 pdfmob.py
        [ Пример:
        MacBook-Pro-MacBook:Desktop macbook$ python3 mob1.py
        Введите номер абонента-968247916
@@ -38,4 +45,4 @@
        на Windows
        $ sudo apt install idle
        После установки IDLE следует в меню следует выбрать File→Open…
-       и открыть файл с кодом mob1.py. Далее переходим  Run→Run Module
+       и открыть файл с кодом pdfmob.py. Далее переходим  Run→Run Module
