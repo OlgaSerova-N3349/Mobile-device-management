@@ -85,7 +85,7 @@ buf3=[]
 for i in range(count):
     print('Кол-во ',i+1,'услуг/товаров-',end='')
     stroka=input()
-    kolvo=int(stroka)
+    kolvo=float(stroka)
     buf1+=stroka
     buf1+='<br>'
     print(val,' ',i+1,'услуи/товара-',end='')
@@ -150,6 +150,6 @@ sheet['AJ37'].value=input()
 wb.save('newtab.xlsx')
 
 xlsx2html('newtab.xlsx', 'page.html')
-pdfkit.from_file('page.html','Blak.pdf')
+pdfkit.from_file('page.html','Blank.pdf')
 
 
