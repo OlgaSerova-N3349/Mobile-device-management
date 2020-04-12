@@ -8,7 +8,7 @@ from openpyxl.styles import Font, Color
 from xlsx2html import xlsx2html
 import pdfkit
 
-wb = openpyxl.load_workbook(filename = '/home/olga/Загрузки/Schet-na-oplatu-82-ot-01-iyulya-2016-g-obrazets.xlsx')
+wb = openpyxl.load_workbook(filename = 'Пустой бланк.xlsx')
 sheet=wb['TDSheet']
 val = sheet['B4'].value
 print(val,'-',end='')
