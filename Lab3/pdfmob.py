@@ -1,4 +1,3 @@
-import sys
 import openpyxl
 from openpyxl import Workbook
 from openpyxl import load_workbook
@@ -91,7 +90,7 @@ for i in range(count):
     buf1+='<br>'
     print(val,' ',i+1,'услуи/товара-',end='')
     stroka=input()
-    summa=kolvo*int(stroka)
+    summa=kolvo*float(stroka)
     buf2+=stroka
     buf2+='<br>'
     buf3+=str(summa)
@@ -117,7 +116,7 @@ val=sheet['AK26'].value
 print(val,'-',end='')
 sheet.merge_cells('AD26:AK26')
 sheet['AD26'].value=val
-HDC=int(input())
+HDC=float(input())
 sheet['AL26'].value=HDC
 
 val=sheet['AK27'].value
