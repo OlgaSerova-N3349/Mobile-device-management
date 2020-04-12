@@ -14,7 +14,7 @@
     3. Установка библиотеки Pandas
        $    pip3 install Pandas
     4. Чтобы непосредственно запустить программный модуль можно воспользоваться терминалом и командой:
-       $ python3 mob1.py
+       $ python3 mob2.py
        [ Пример:
        MacBook-Pro-MacBook:Desktop macbook$ python3 mob2.py
        Введите множитель тарифного плана k руб/Mb-1
